@@ -3,9 +3,16 @@
 }
 
 #name {
+  margin-top:5%;
   font-size: 65px;
   font-family: "faricy-new-web", sans-serif;
-  margin-bottom: 30px;
+  color: black;
+}
+#name:hover, #name:link, #name:visited, #name:active {
+  text-decoration: none;
+}
+#name:active {
+
 }
 .center {
   text-align: center;
@@ -16,10 +23,18 @@
   height: 100;
 }
 #iconsDiv {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+#email {
+  font-family: "faricy-new-web", sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.button {
+button:active, .button:active, button:focus, .button:focus, button:hover, .button:hover{
+    outline:none;
+}
+.greenButton {
    margin-left: 5px;
    margin-right: 5px;
    border: 2px solid #000000;
@@ -44,7 +59,7 @@
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover {
+.greenButton:hover {
    border: 2px solid #000000;
    text-shadow: #92cca6 0 1px 0;
    background: #92cca6;
@@ -56,7 +71,7 @@
    background-image: -ms-linear-gradient(top, #92cca6 0%, #92cca6 100%);
    color: #000000;
    }
-.button:active {
+.greenButton:active {
    text-shadow: #92cca6 0 1px 0;
    border: 2px solid #000000;
    background: #92cca6;

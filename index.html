@@ -4,21 +4,35 @@
 
     <title id="title">Edward Bachoura</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+    <!-- typekit -->
     <script src="https://use.typekit.net/mbb2rcl.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </head>
   <body>
     <div class="center">
-      <p id="name">Edward Bachoura</p>
+      <a href="index.html" id="name">Edward Bachoura</a>
     </div>
 
     <center><div>
-      <a class='button' onClick="window.open('Edward Bachoura Resume.pdf');">Resume</a>
-      <a href='#' class='button'>Email Me</a>
-      <a href='#' class='button'>Code</a>
-      <a href='#' class='button'>Other Work</a>
+      <button type="button" class="greenButton" onClick="window.open('Edward Bachoura Resume.pdf');">Resume</button>
+      <button type="button" class="greenButton" data-toggle="collapse" data-target="#email">Email Me</button>
+      <button type="button" class="greenButton">Code</button>
+      <button type="button" class="greenButton">Other Work</button>
     </div></center>
+
+    <div id="email" class="collapse">
+       Best: edwardbachoura@gmail.com<br />Secondary:ebachour@lion.lmu.edu
+    </div>
 
     <div class="center" id="iconsDiv">
       <a href="https://github.com/ebachoura"><img src="Images/github.png" alt="GitHub" width="50" height="50"></a>
