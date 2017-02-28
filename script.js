@@ -1,9 +1,4 @@
-var emails = Document.getElementById("#button2");
-var code = Document.getElementById("#button3");
-
-function myFunction(button) {
-    button.onClick()
-}
-
-
-emails.onClick();
+var $myGroup = $('#myGroup');
+$myGroup.on('show.bs.collapse','.collapse', function() {
+    $myGroup.find('.collapse.in').collapse('hide');
+});
