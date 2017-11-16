@@ -1,93 +1,78 @@
-::selection {
-  background: #92cca6;
+.logo {
+  top: 25px;
+  left: 25px;
+  font-family: raleway, sans-serif;
+  font-style: regular;
+  font-weight: 500;
+  font-size: 35px;
 }
 
-#name {
-  margin-top:5%;
-  font-size: 65px;
-  font-family: "faricy-new-web", sans-serif;
+.nav-links {
+  top: 25px;
+  right:25px;
+  font-family: raleway, sans-serif;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+#project-container {
+  width: 100%;
+}
+
+.project {
+  position: relative;
+  padding-top: 100px;
+}
+
+.project-image {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  transition: .3s ease;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.overlay {
+  position: absolute;
+  display: inline;
+  padding-top: 100px;
+  top: 0;
+  /*bottom: 0;*/
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+.project:hover .project-image {
+  opacity: 0;
+}
+
+.overlay-body {
+
+}
+
+.project-header {
+  padding-top: 7vh;
+  font-family: raleway, sans-serif;
+  font-style: regular;
+  font-weight: 500;
   color: black;
-}
-#name:hover, #name:link, #name:visited, #name:active {
-  text-decoration: none;
-}
-#name:active {
-
-}
-#profile {
-  margin-bottom: 15px;
-  border-radius: 2%;
-  -webkit-filter: opacity(100%);
-  filter: opacity(80%);
-  width:600px;
-  height: auto;
-}
-.center {
-  text-align: center;
-  margin: auto;
-}
-.icons {
-  width: 100;
-  height: 100;
-}
-#iconsDiv {
-  margin-top: 20px;
-}
-#email {
-  font-family: "faricy-new-web", sans-serif;
-  font-size: 20px;
-  text-align: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 2.4vw;
 }
 
-button:active, .button:active, button:focus, .button:focus, button:hover, .button:hover{
-    outline:none;
+.project-body {
+  font-family: raleway, sans-serif;
+  font-style: regular;
+  font-weight: 400;
+  color: #939393;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 2vw;
 }
-.greenButton {
-   margin-left: 5px;
-   margin-right: 5px;
-   border: 2px solid #000000;
-   background: #ffffff;
-   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
-   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
-   background: -moz-linear-gradient(top, #ffffff, #ffffff);
-   background: -ms-linear-gradient(top, #ffffff, #ffffff);
-   background: -o-linear-gradient(top, #ffffff, #ffffff);
-   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-   padding: 12px 24px;
-   -webkit-border-radius: 7px;
-   -moz-border-radius: 7px;
-   border-radius: 7px;
-   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0 0, inset rgba(255,255,255,0.4) 0 0 0;
-   -moz-box-shadow: rgba(255,255,255,0.4) 0 0 0, inset rgba(255,255,255,0.4) 0 0 0;
-   box-shadow: rgba(255,255,255,0.4) 0 0 0, inset rgba(255,255,255,0.4) 0 0 0;
-   text-shadow: #ffffff 0 1px 0;
-   color: #000000;
-   font-size: 24px;
-   font-family: "faricy-new-web", sans-serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.greenButton:hover {
-   border: 2px solid #000000;
-   text-shadow: #92cca6 0 1px 0;
-   background: #92cca6;
-   background: -webkit-gradient(linear, left top, left bottom, from(#92cca6), to(#92cca6));
-   background: -webkit-linear-gradient(top, #92cca6, #92cca6);
-   background: -moz-linear-gradient(top, #92cca6, #92cca6);
-   background: -ms-linear-gradient(top, #92cca6, #92cca6);
-   background: -o-linear-gradient(top, #92cca6, #92cca6);
-   background-image: -ms-linear-gradient(top, #92cca6 0%, #92cca6 100%);
-   color: #000000;
-   }
-.greenButton:active {
-   text-shadow: #92cca6 0 1px 0;
-   border: 2px solid #000000;
-   background: #92cca6;
-   background: -webkit-gradient(linear, left top, left bottom, from(#92cca6), to(#92cca6));
-   background: -webkit-linear-gradient(top, #92cca6, #92cca6);
-   background: -moz-linear-gradient(top, #92cca6, #92cca6);
-   background: -ms-linear-gradient(top, #92cca6, #92cca6);
-   background: -o-linear-gradient(top, #92cca6, #92cca6);
-   background-image: -ms-linear-gradient(top, #92cca6 0%, #92cca6 100%);
-   color: #000000;
-   }

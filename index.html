@@ -1,47 +1,46 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title id="title">Edward Bachoura</title>
+    <!-- my stylesheet -->
     <link rel="stylesheet" href="mystyle.css">
-    <script src="script.js"></script>
-    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-light">
+      <a class="logo" class="navbar-brand">Edward Bachoura</a>
+      <div class="nav-links">
+          <a id="resume" class="navbar-brand" href="resources/resume.pdf">Resume</a>
+          <a id="github" class="navbar-brand" href="https://github.com/ebachoura">GitHub</a>
+          <a id="linkedin" class="navbar-brand" href="https://www.linkedin.com/in/ebachoura">LinkedIn</a>
+          <a id="mail" class="navbar-brand" href="mailto:edwardbachoura@gmail.com">Email</a>
+      </div>
+    </nav>
+    <div id="project-container" class="row"></div>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <!-- typekit -->
     <script src="https://use.typekit.net/mbb2rcl.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <!-- bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="js/bootstrap.min.js"></script>
-    <!-- jquery -->
-    <script src="js/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- My scripts -->
+    <script src="script.js"></script>
+    <script>window.portfolio.init()</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109438877-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  </head>
-  <body>
-    <div class="center">
-      <a href="index.html" id="name">Edward Bachoura</a>
-    </div>
-
-    <div class="center">
-      <img id="profile" src="Images/profile.GIF">
-    </div>
-    <center><div>
-      <button type="button" class="greenButton" onclick="window.open('EdwardBachoura.pdf');">Resume</button>
-      <button id="button2" type="button" class="greenButton" data-toggle="collapse" data-target="#email">Email Me</button>
-      <button id="button3" type="button" class="greenButton" data-toggle="collapse" data-target="#code">Code</button>
-      <button type="button" class="greenButton">Other Work</button>
-    </div></center>
-
-    <div id="email" class="collapse">
-       Best: edwardbachoura@gmail.com<br />Secondary:ebachour@lion.lmu.edu
-    </div>
-    <div class="center" id="iconsDiv">
-      <a href="https://github.com/ebachoura"><img src="Images/github.png" alt="GitHub" width="50" height="50"></a>
-      <a href="https://www.facebook.com/ebachoura"><img src="Images/facebook.png" alt="Facebook" width="50" height="50"></a>
-      <a href="https://www.linkedin.com/in/ebachoura"><img src="Images/linkedin.png" alt="LinkedIn" width="50" height="50"></a>
-    </div>
+      gtag('config', 'UA-109438877-1');
+    </script>
   </body>
 </html>
