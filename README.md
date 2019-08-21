@@ -1,1 +1,1 @@
-<a href="https://edlo.github.io/">ebachoura.github.io</a>
+<a href="https://edlo.github.io/">edlo.github.io</a>
